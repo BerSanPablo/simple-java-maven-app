@@ -5,7 +5,7 @@ echo 'into the local Maven repository, which will ultimately be stored in'
 echo 'Jenkins''s local Maven repository (and the "maven-repository" Docker data'
 echo 'volume).'
 set -x
-mvn jar:jar install:install help:evaluate -Dexpression=project.name
+C:\\Users\\bersa\\Documents\\apache-maven-3.9.2\\bin\\mvn jar:jar install:install help:evaluate -Dexpression=project.name
 set +x
 
 echo 'The following command extracts the value of the <name/> element'
